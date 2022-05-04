@@ -1,8 +1,7 @@
 CREATE TABLE members
 (
-    id SERIAL,
+    registration CHAR(8) PRIMARY KEY NOT NULL, 
     nome  VARCHAR(255),
-    registration CHAR(8),
     observacao TEXT
 	
 );
